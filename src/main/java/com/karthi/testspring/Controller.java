@@ -16,7 +16,7 @@ public class Controller {
 
     @GetMapping
     public String testApi(){
-        return "API is working";
+        return "API is working 👨‍💻🎶";
     }
 
     @GetMapping("/id/{id}")
