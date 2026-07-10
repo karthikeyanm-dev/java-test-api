@@ -40,9 +40,14 @@
             <artifactId>spring-boot-starter-webmvc-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
+        <finalName>gopal-all</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
